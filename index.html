@@ -8,13 +8,16 @@
 <body>
     <h1>Colour Picker</h1>
     <div id="topbar">
-    <p>click {<span>spacebar</span>} to change colour </p>
+    <p>click {<button class="generator-button">spacebar</button>} to change colour </p>
     </div>
 
     <div id="colours">
         <div class="colour">
-            <p class="hex-number">00000</p>
-            
+            <button class="lock-toggle">
+                <img src="images/lock-open.svg">
+            </button>
+            <input type="text" class="colour-input" value="#000000"/>
+            <button class="copy-hex">Copy</button>
 
         </div>
 
