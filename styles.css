@@ -5,3 +5,11 @@
     --dark: #1C110A; 
     --light: #E4D6A7
 }
+
+*{ 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Open Sans', sans-serif;
+
+}
