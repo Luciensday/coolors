@@ -1,1 +1,7 @@
-.colour { background-color: red ;}
+:root {
+    --primary: #9B2915; 
+    --secondary: #E9B44C; 
+    --grey: #aaa; 
+    --dark: #1C110A; 
+    --light: #E4D6A7
+}
