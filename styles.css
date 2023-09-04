@@ -54,13 +54,28 @@ p {
 .colour{
     background-color: red; 
     height: 100%; 
-    flex: 1;
+ 
 }
 #colours {
     height: 80vh; 
     display: flex; 
     flex-direction: column;
 }
+
+@media (min-width: 768px) {
+    #colours { 
+        flex-direction: row; 
+        width: 100vw
+    }
+
+    .colour {
+        width:100%
+    }
+
+
+
+}
+
 
 .generator-button{
  color: var(--primary); 
