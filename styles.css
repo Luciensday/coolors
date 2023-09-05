@@ -54,12 +54,22 @@ p {
 .colour{
     background-color: red; 
     height: 100%; 
+    display: flex; 
+    justify-content: space-between;
+   
  
 }
 #colours {
     height: 80vh; 
     display: flex; 
     flex-direction: column;
+}
+
+.hex-div {
+    display: flex;
+    align-items: center; 
+    padding-left: 2rem; 
+  
 }
 
 @media (min-width: 768px) {
