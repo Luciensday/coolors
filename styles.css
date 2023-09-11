@@ -72,6 +72,12 @@ p {
   
 }
 
+.lockcopydiv {
+    display: flex; 
+    align-items: center;
+    gap: 3px
+}
+
 @media (min-width: 768px) {
     #colours { 
         flex-direction: row; 
