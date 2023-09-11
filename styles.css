@@ -86,6 +86,8 @@ p {
 
 }
 
+.icon { height: 2rem }
+
 
 .generator-button{
  color: var(--primary); 
