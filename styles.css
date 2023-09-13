@@ -78,6 +78,15 @@ p {
     gap: 3px
 }
 
+.lock-toggle {
+    opacity: 0.5; 
+    transition: 0.4s; 
+}
+
+.lock-toggle.is-locked {
+    opacity: 1
+}
+
 @media (min-width: 768px) {
     #colours { 
         flex-direction: row; 
